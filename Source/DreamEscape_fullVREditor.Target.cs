@@ -8,7 +8,7 @@ public class DreamEscape_fullVREditorTarget : TargetRules
 	public DreamEscape_fullVREditorTarget(TargetInfo Target) : base(Target)
 	{
         Type = TargetType.Editor;
-        DefaultBuildSettings = BuildSettingsVersion.V5;
+        DefaultBuildSettings = BuildSettingsVersion.V6;
         CppStandard = CppStandardVersion.Cpp20;
 
         bOverrideBuildEnvironment = true;

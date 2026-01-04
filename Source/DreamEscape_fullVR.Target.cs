@@ -8,7 +8,7 @@ public class DreamEscape_fullVRTarget : TargetRules
 	public DreamEscape_fullVRTarget(TargetInfo Target) : base(Target)
 	{
         Type = TargetType.Game;
-        DefaultBuildSettings = BuildSettingsVersion.V5;
+        DefaultBuildSettings = BuildSettingsVersion.V6;
         CppStandard = CppStandardVersion.Cpp20;
 
         bOverrideBuildEnvironment = true;
